@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arc de Sant Martí</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        function Todoscolores() {
+            document.getElementById('rojo').className = 'rojo';
+            document.getElementById('naranja').className = 'naranja';
+            document.getElementById('amarillo').className = 'amarillo';
+            document.getElementById('verde').className = 'verde';
+            document.getElementById('azulclaro').className = 'azulclaro';
+            document.getElementById('azul').className = 'azul';
+            document.getElementById('morado').className = 'morado';
+        }
+    </script>
+
+</head>
+
+
+<body>
+    <h3 onclick="Todoscolores()"><b>Arc de Sant Martí</b></h3>
+    <p id="rojo" onmouseover="this.className='rojo'" onmouseout="this.className='negro'">roig, red, rojo</p>
+    <p id="naranja" onmouseover="this.className='naranja'" onmouseout="this.className='negro'">taronja, orange, naranja</p>
+    <p id="amarillo" onmouseover="this.className='amarillo'" onmouseout="this.className='negro'">groc, yellow, amarillo</p>
+    <p id="verde" onmouseover="this.className='verde'" onmouseout="this.className='negro'">verd, green, verde</p>
+    <p id="azulclaro" onmouseover="this.className='azulclaro'" onmouseout="this.className='negro'">blau clar, light blue, azul claro</p>
+    <p id="azul" onmouseover="this.className='azul'" onmouseout="this.className='negro'">blau, blue, azul</p>
+    <p id="morado" onmouseover="this.className='morado'" onmouseout="this.className='negro'">morat, putple, morado</p>
+</body>
+</html>
